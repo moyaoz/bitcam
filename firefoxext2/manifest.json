@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Sign to Text V2",
+    "version": "1.0",
+    "description": "Opens a new tab to access the webcam",
+    "permissions": [
+      "tabs"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self';"
+    }
+  }
+  

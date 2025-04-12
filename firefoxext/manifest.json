@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Sign to Text",
+    "version": "1.0",
+    "description": "Starts and stops a webcam which will read user hand signs and transcribe them into text.",
+   
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "48": "images/placeholder.jpeg"
+      }
+    },
+   
+    "permissions": [
+      "camera"
+    ]
+   }
+   
+   
+   
+   
+   
+   
